@@ -428,7 +428,7 @@ input[type=submit] {
 		padding-right: 25px;
 	  }
 	
-	#container::before {
+	.container::before {
 		left: 60px;
 		border: medium solid white;
 		border-width: 10px 10px 10px 0;
