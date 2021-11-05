@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans"  rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/Women-of-the-MCU-25fzrrv-683x1024.jpeg"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Contact Form</title>
+</head>
+
+<div class="skip"><a href="#skip">Skip to Main Content</a></div>
+<body>
+	<header>
+	<img src="images/900x506_1.png" alt="" id = "logo">
+
+	<nav>
+		<ul>
+		  <li><a href="index.html">About</a></li>
+		  <li><a href="women.html">Women</a></li>
+		  <li><a href="future.html">Future</a></li>
+		  <li><a href="timeline.html">Timeline</a></li>
+		  <li class="current"><a href="contact.html">Contact</a></li>
+		</ul>
+	  </nav>
+
+	</header>
+	<main class="contact-form" id="skip">
+    <h3>Contact us</h3>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+			</div>
+			<div class="fcf-form-group">
+			<label for="contact reason">Contact Reason</label>
+			<select id="contact reason" name="contact reason">
+			  <option value="information">Info</option>
+			  <option value="help">Help</option>
+			  <option value="photos">Photos</option>
+			</select>
+			</div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+	</main>
+
+	<footer>
+		<p>University of Michigan School of Information <br/>
+		  &copy; Devon Farrell - Web Design 2021</p>
+	  </footer>
+</body>
+</html>
