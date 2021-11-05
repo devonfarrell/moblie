@@ -26,13 +26,17 @@ p{
 }
 
 .column-2 p{
-	font-size: 16px;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 .flip-box-back h2{
 	font-size: 16px;
 }
 
+.flip-box-back p, .flip-box-back h2{
+	padding: 0px;
+}
 
 h1{
 	font-size: 50px;
